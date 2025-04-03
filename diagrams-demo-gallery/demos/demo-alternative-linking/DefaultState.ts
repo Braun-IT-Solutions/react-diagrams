@@ -1,12 +1,5 @@
 import { MouseEvent, TouchEvent } from 'react';
-import {
-	SelectingState,
-	State,
-	Action,
-	InputType,
-	ActionEvent,
-	DragCanvasState
-} from '@bits_devel/react-canvas-core';
+import { SelectingState, State, Action, InputType, ActionEvent, DragCanvasState } from '@bits_devel/react-canvas-core';
 import { PortModel, DiagramEngine, DragDiagramItemsState } from '@bits_devel/react-diagrams-core';
 import { CreateLinkState } from './CreateLinkState';
 

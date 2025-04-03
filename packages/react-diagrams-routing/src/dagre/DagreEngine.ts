@@ -139,7 +139,7 @@ export class DagreEngine {
 							targetIndex,
 							targetY: target.getY() + source.height / 2,
 							target
-					  }
+						}
 					: {
 							link,
 							sourceIndex: targetIndex,
@@ -148,7 +148,7 @@ export class DagreEngine {
 							targetIndex: sourceIndex,
 							targetY: source.getY() + source.height / 2,
 							target: source
-					  };
+						};
 			}
 		});
 		const sortedEdges = _sortBy(edges, (link) => {

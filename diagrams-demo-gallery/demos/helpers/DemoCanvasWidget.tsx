@@ -20,7 +20,8 @@ namespace S {
 			width: 100%;
 		}
 
-		background-image: linear-gradient(
+		background-image:
+			linear-gradient(
 				0deg,
 				transparent 24%,
 				${(p) => p.color} 25%,
