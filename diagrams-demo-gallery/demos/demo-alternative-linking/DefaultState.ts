@@ -6,8 +6,8 @@ import {
 	InputType,
 	ActionEvent,
 	DragCanvasState
-} from '@projectstorm/react-canvas-core';
-import { PortModel, DiagramEngine, DragDiagramItemsState } from '@projectstorm/react-diagrams-core';
+} from '@bits_devel/react-canvas-core';
+import { PortModel, DiagramEngine, DragDiagramItemsState } from '@bits_devel/react-diagrams-core';
 import { CreateLinkState } from './CreateLinkState';
 
 export class DefaultState extends State<DiagramEngine> {

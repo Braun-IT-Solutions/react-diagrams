@@ -1,12 +1,12 @@
 {
-  "name": "@projectstorm/react-diagrams-gallery",
+  "name": "@bits_devel/react-diagrams-gallery",
   "version": "7.2.1",
   "author": "dylanvorster",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/projectstorm/react-diagrams.git"
+    "url": "https://github.com/Braun-IT-Solutions/react-diagrams.git"
   },
   "scripts": {
     "start": "pnpm storybook dev",
@@ -24,10 +24,10 @@
     "nodes"
   ],
   "dependencies": {
-    "@projectstorm/react-canvas-core": "workspace:*",
-    "@projectstorm/react-diagrams": "workspace:*",
-    "@projectstorm/react-diagrams-core": "workspace:*",
-    "@projectstorm/react-diagrams-defaults": "workspace:*",
+    "@bits_devel/react-canvas-core": "workspace:*",
+    "@bits_devel/react-diagrams": "workspace:*",
+    "@bits_devel/react-diagrams-core": "workspace:*",
+    "@bits_devel/react-diagrams-defaults": "workspace:*",
     "gsap": "^3.12.2",
     "json-beautify": "^1.1.1",
     "lodash": "^4.17.21",

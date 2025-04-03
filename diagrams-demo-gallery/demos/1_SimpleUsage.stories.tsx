@@ -1,4 +1,4 @@
-import { Toolkit } from '@projectstorm/react-canvas-core';
+import { Toolkit } from '@bits_devel/react-canvas-core';
 Toolkit.TESTING = true;
 
 export default {

@@ -1,5 +1,5 @@
-import { DiagramEngine, PortModel } from '@projectstorm/react-diagrams';
-import { AbstractModelFactory } from '@projectstorm/react-canvas-core';
+import { DiagramEngine, PortModel } from '@bits_devel/react-diagrams';
+import { AbstractModelFactory } from '@bits_devel/react-canvas-core';
 
 export class SimplePortFactory extends AbstractModelFactory<PortModel, DiagramEngine> {
 	cb: (initialConfig?: any) => PortModel;

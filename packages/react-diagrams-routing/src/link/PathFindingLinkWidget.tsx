@@ -1,11 +1,11 @@
 import * as React from 'react';
 import _first from 'lodash/first';
 import _last from 'lodash/last';
-import { DiagramEngine } from '@projectstorm/react-diagrams-core';
+import { DiagramEngine } from '@bits_devel/react-diagrams-core';
 import { PathFinding } from '../engine/PathFinding';
 import { PathFindingLinkFactory } from './PathFindingLinkFactory';
 import { PathFindingLinkModel } from './PathFindingLinkModel';
-import { DefaultLinkSegmentWidget } from '@projectstorm/react-diagrams-defaults';
+import { DefaultLinkSegmentWidget } from '@bits_devel/react-diagrams-defaults';
 import { JSX } from 'react';
 
 export interface PathFindingLinkWidgetProps {

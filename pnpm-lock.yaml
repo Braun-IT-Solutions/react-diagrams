@@ -62,16 +62,16 @@ importers:
 
   diagrams-demo-gallery:
     dependencies:
-      '@projectstorm/react-canvas-core':
+      '@bits_devel/react-canvas-core':
         specifier: workspace:*
         version: link:../packages/react-canvas-core
-      '@projectstorm/react-diagrams':
+      '@bits_devel/react-diagrams':
         specifier: workspace:*
         version: link:../packages/react-diagrams
-      '@projectstorm/react-diagrams-core':
+      '@bits_devel/react-diagrams-core':
         specifier: workspace:*
         version: link:../packages/react-diagrams-core
-      '@projectstorm/react-diagrams-defaults':
+      '@bits_devel/react-diagrams-defaults':
         specifier: workspace:*
         version: link:../packages/react-diagrams-defaults
       gsap:
@@ -138,7 +138,7 @@ importers:
 
   diagrams-demo-project:
     dependencies:
-      '@projectstorm/react-diagrams':
+      '@bits_devel/react-diagrams':
         specifier: workspace:*
         version: link:../packages/react-diagrams
       react:
@@ -197,15 +197,15 @@ importers:
 
   packages/react-canvas-core:
     dependencies:
+      '@bits_devel/geometry':
+        specifier: workspace:*
+        version: link:../geometry
       '@emotion/react':
         specifier: ^11.14.0
         version: 11.14.0(@types/react@19.0.12)(react@19.0.0)
       '@emotion/styled':
         specifier: ^11.11.0
         version: 11.14.0(@emotion/react@11.14.0(@types/react@19.0.12)(react@19.0.0))(@types/react@19.0.12)(react@19.0.0)
-      '@projectstorm/geometry':
-        specifier: workspace:*
-        version: link:../geometry
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -222,30 +222,30 @@ importers:
 
   packages/react-diagrams:
     dependencies:
-      '@projectstorm/react-canvas-core':
+      '@bits_devel/react-canvas-core':
         specifier: workspace:*
         version: link:../react-canvas-core
-      '@projectstorm/react-diagrams-core':
+      '@bits_devel/react-diagrams-core':
         specifier: workspace:*
         version: link:../react-diagrams-core
-      '@projectstorm/react-diagrams-defaults':
+      '@bits_devel/react-diagrams-defaults':
         specifier: workspace:*
         version: link:../react-diagrams-defaults
-      '@projectstorm/react-diagrams-routing':
+      '@bits_devel/react-diagrams-routing':
         specifier: workspace:*
         version: link:../react-diagrams-routing
 
   packages/react-diagrams-core:
     dependencies:
+      '@bits_devel/geometry':
+        specifier: workspace:*
+        version: link:../geometry
+      '@bits_devel/react-canvas-core':
+        specifier: workspace:*
+        version: link:../react-canvas-core
       '@emotion/styled':
         specifier: ^11.11.0
         version: 11.14.0(@emotion/react@11.14.0(@types/react@19.0.12)(react@19.0.0))(@types/react@19.0.12)(react@19.0.0)
-      '@projectstorm/geometry':
-        specifier: workspace:*
-        version: link:../geometry
-      '@projectstorm/react-canvas-core':
-        specifier: workspace:*
-        version: link:../react-canvas-core
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -265,21 +265,21 @@ importers:
 
   packages/react-diagrams-defaults:
     dependencies:
+      '@bits_devel/geometry':
+        specifier: workspace:*
+        version: link:../geometry
+      '@bits_devel/react-canvas-core':
+        specifier: workspace:*
+        version: link:../react-canvas-core
+      '@bits_devel/react-diagrams-core':
+        specifier: workspace:*
+        version: link:../react-diagrams-core
       '@emotion/react':
         specifier: ^11.14.0
         version: 11.14.0(@types/react@19.0.12)(react@19.0.0)
       '@emotion/styled':
         specifier: ^11.*
         version: 11.14.0(@emotion/react@11.14.0(@types/react@19.0.12)(react@19.0.0))(@types/react@19.0.12)(react@19.0.0)
-      '@projectstorm/geometry':
-        specifier: workspace:*
-        version: link:../geometry
-      '@projectstorm/react-canvas-core':
-        specifier: workspace:*
-        version: link:../react-canvas-core
-      '@projectstorm/react-diagrams-core':
-        specifier: workspace:*
-        version: link:../react-diagrams-core
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
@@ -296,16 +296,16 @@ importers:
 
   packages/react-diagrams-routing:
     dependencies:
-      '@projectstorm/geometry':
+      '@bits_devel/geometry':
         specifier: workspace:*
         version: link:../geometry
-      '@projectstorm/react-canvas-core':
+      '@bits_devel/react-canvas-core':
         specifier: workspace:*
         version: link:../react-canvas-core
-      '@projectstorm/react-diagrams-core':
+      '@bits_devel/react-diagrams-core':
         specifier: workspace:*
         version: link:../react-diagrams-core
-      '@projectstorm/react-diagrams-defaults':
+      '@bits_devel/react-diagrams-defaults':
         specifier: workspace:*
         version: link:../react-diagrams-defaults
       dagre:

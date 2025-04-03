@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { JSCustomNodeModel } from './JSCustomNodeModel';
 import { JSCustomNodeWidget } from './JSCustomNodeWidget';
-import { AbstractReactFactory } from '@projectstorm/react-diagrams';
+import { AbstractReactFactory } from '@bits_devel/react-diagrams';
 
 export class JSCustomNodeFactory extends AbstractReactFactory {
 	constructor() {

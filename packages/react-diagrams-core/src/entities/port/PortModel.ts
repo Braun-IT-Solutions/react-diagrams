@@ -5,7 +5,7 @@ import _isFinite from 'lodash/isFinite';
 import _map from 'lodash/map';
 import _size from 'lodash/size';
 import _values from 'lodash/values';
-import { Point, Rectangle } from '@projectstorm/geometry';
+import { Point, Rectangle } from '@bits_devel/geometry';
 import {
 	BaseEntityEvent,
 	BaseModelOptions,
@@ -13,7 +13,7 @@ import {
 	BasePositionModelGenerics,
 	BasePositionModelListener,
 	DeserializeEvent
-} from '@projectstorm/react-canvas-core';
+} from '@bits_devel/react-canvas-core';
 
 export enum PortModelAlignment {
 	TOP = 'top',

@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { DiagramEngine, LinkWidget, PointModel } from '@projectstorm/react-diagrams-core';
+import { DiagramEngine, LinkWidget, PointModel } from '@bits_devel/react-diagrams-core';
 import { RightAngleLinkFactory } from './RightAngleLinkFactory';
-import { DefaultLinkModel, DefaultLinkSegmentWidget } from '@projectstorm/react-diagrams-defaults';
-import { Point } from '@projectstorm/geometry';
+import { DefaultLinkModel, DefaultLinkSegmentWidget } from '@bits_devel/react-diagrams-defaults';
+import { Point } from '@bits_devel/geometry';
 import { JSX, MouseEvent } from 'react';
 import { RightAngleLinkModel } from './RightAngleLinkModel';
 
