@@ -1,7 +1,7 @@
 import _map from 'lodash/map';
-import { NodeModel, NodeModelGenerics, PortModelAlignment } from '@projectstorm/react-diagrams-core';
+import { NodeModel, NodeModelGenerics, PortModelAlignment } from '@bits_devel/react-diagrams-core';
 import { DefaultPortModel } from '../port/DefaultPortModel';
-import { BasePositionModelOptions, DeserializeEvent } from '@projectstorm/react-canvas-core';
+import { BasePositionModelOptions, DeserializeEvent } from '@bits_devel/react-canvas-core';
 
 export interface DefaultNodeModelOptions extends BasePositionModelOptions {
 	name?: string;

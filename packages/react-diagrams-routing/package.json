@@ -1,19 +1,16 @@
 {
-	"name": "@projectstorm/react-diagrams-routing",
+	"name": "@bits_devel/react-diagrams-routing",
 	"version": "7.1.3",
 	"author": "dylanvorster",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/projectstorm/react-diagrams.git"
+		"url": "https://github.com/Braun-IT-Solutions/react-diagrams.git"
 	},
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"build": "../../node_modules/.bin/webpack",
 		"test": "../../node_modules/.bin/jest"
-	},
-	"publishConfig": {
-		"access": "public"
 	},
 	"keywords": [
 		"web",
@@ -30,10 +27,10 @@
 	"module": "./dist/index.js",
 	"typings": "./dist/@types/index",
 	"dependencies": {
-		"@projectstorm/geometry": "workspace:*",
-		"@projectstorm/react-canvas-core": "workspace:*",
-		"@projectstorm/react-diagrams-core": "workspace:*",
-		"@projectstorm/react-diagrams-defaults": "workspace:*",
+		"@bits_devel/geometry": "workspace:*",
+		"@bits_devel/react-canvas-core": "workspace:*",
+		"@bits_devel/react-diagrams-core": "workspace:*",
+		"@bits_devel/react-diagrams-defaults": "workspace:*",
 		"dagre": "^0.8.5",
 		"lodash": "^4.17.21",
 		"pathfinding": "^0.4.18",

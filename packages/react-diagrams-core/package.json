@@ -1,20 +1,17 @@
 {
-	"name": "@projectstorm/react-diagrams-core",
+	"name": "@bits_devel/react-diagrams-core",
 	"version": "7.0.3",
 	"author": "dylanvorster",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/projectstorm/react-diagrams.git"
+		"url": "https://github.com/Braun-IT-Solutions/react-diagrams.git"
 	},
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"build": "../../node_modules/.bin/webpack",
 		"build:es": "../../node_modules/.bin/tsc",
 		"build:prod": "NODE_ENV=production ../../node_modules/.bin/webpack && NODE_ENV=production  ../../node_modules/.bin/tsc"
-	},
-	"publishConfig": {
-		"access": "public"
 	},
 	"keywords": [
 		"web",
@@ -32,8 +29,8 @@
 	"typings": "./dist/@types/index",
 	"dependencies": {
 		"@emotion/styled": "^11.11.0",
-		"@projectstorm/geometry": "workspace:*",
-		"@projectstorm/react-canvas-core": "workspace:*",
+		"@bits_devel/geometry": "workspace:*",
+		"@bits_devel/react-canvas-core": "workspace:*",
 		"lodash": "^4.17.21",
 		"react": "^19.0.0",
 		"resize-observer-polyfill": "^1.5.1"

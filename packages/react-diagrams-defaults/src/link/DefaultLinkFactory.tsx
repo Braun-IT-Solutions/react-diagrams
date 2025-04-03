@@ -2,8 +2,8 @@ import * as React from 'react';
 import { DefaultLinkModel } from './DefaultLinkModel';
 import { DefaultLinkWidget } from './DefaultLinkWidget';
 import styled from '@emotion/styled';
-import { AbstractReactFactory } from '@projectstorm/react-canvas-core';
-import { DiagramEngine } from '@projectstorm/react-diagrams-core';
+import { AbstractReactFactory } from '@bits_devel/react-canvas-core';
+import { DiagramEngine } from '@bits_devel/react-diagrams-core';
 import { css, keyframes } from '@emotion/react';
 import { JSX } from 'react';
 

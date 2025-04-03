@@ -12,7 +12,7 @@ Because our Diamond node always has four ports, we add four default port models 
 
 ```typescript
 // DiamondNodeModel.ts
-import { NodeModel, NodeModelGenerics, PortModelAlignment } from '@projectstorm/react-diagrams';
+import { NodeModel, NodeModelGenerics, PortModelAlignment } from '@bits_devel/react-diagrams';
 import { DiamondPortModel } from './DiamondPortModel';
 
 export interface DiamondNodeModelGenerics {
@@ -39,7 +39,7 @@ This is where we create our customized component. This component can be any cust
 // DiamondNodeWidget.tsx
 import * as React from 'react';
 import { DiamondNodeModel } from './DiamondNodeModel';
-import { DiagramEngine, PortModelAlignment, PortWidget } from '@projectstorm/react-diagrams';
+import { DiagramEngine, PortModelAlignment, PortWidget } from '@bits_devel/react-diagrams';
 import styled from '@emotion/styled';
 
 export interface DiamondNodeWidgetProps {
@@ -156,8 +156,8 @@ Now we need to create a new node factory to tell the system how our new node mod
 import { DiamondNodeWidget } from './DiamondNodeWidget';
 import { DiamondNodeModel } from './DiamondNodeModel';
 import * as React from 'react';
-import { AbstractReactFactory } from '@projectstorm/react-canvas-core';
-import { DiagramEngine } from '@projectstorm/react-diagrams-core';
+import { AbstractReactFactory } from '@bits_devel/react-canvas-core';
+import { DiagramEngine } from '@bits_devel/react-diagrams-core';
 
 export class DiamondNodeFactory extends AbstractReactFactory<DiamondNodeModel, DiagramEngine> {
 	constructor() {

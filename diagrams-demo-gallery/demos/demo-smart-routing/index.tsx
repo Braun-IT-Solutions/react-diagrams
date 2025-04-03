@@ -4,11 +4,11 @@ import createEngine, {
 	DefaultPortModel,
 	PathFindingLinkFactory,
 	DefaultLabelModel
-} from '@projectstorm/react-diagrams';
+} from '@bits_devel/react-diagrams';
 import * as React from 'react';
 import { DemoButton, DemoWorkspaceWidget } from '../helpers/DemoWorkspaceWidget';
 import { action } from '@storybook/addon-actions';
-import { CanvasWidget } from '@projectstorm/react-canvas-core';
+import { CanvasWidget } from '@bits_devel/react-canvas-core';
 import { DemoCanvasWidget } from '../helpers/DemoCanvasWidget';
 
 export default () => {

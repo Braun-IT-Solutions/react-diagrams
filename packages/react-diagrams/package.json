@@ -1,18 +1,15 @@
 {
-	"name": "@projectstorm/react-diagrams",
+	"name": "@bits_devel/react-diagrams",
 	"version": "7.0.4",
 	"author": "dylanvorster",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/projectstorm/react-diagrams.git"
+		"url": "https://github.com/Braun-IT-Solutions/react-diagrams.git"
 	},
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"build": "../../node_modules/.bin/webpack"
-	},
-	"publishConfig": {
-		"access": "public"
 	},
 	"keywords": [
 		"web",
@@ -29,9 +26,9 @@
 	"module": "./dist/index.js",
 	"typings": "./dist/@types/index",
 	"dependencies": {
-		"@projectstorm/react-canvas-core": "workspace:*",
-		"@projectstorm/react-diagrams-core": "workspace:*",
-		"@projectstorm/react-diagrams-defaults": "workspace:*",
-		"@projectstorm/react-diagrams-routing": "workspace:*"
+		"@bits_devel/react-canvas-core": "workspace:*",
+		"@bits_devel/react-diagrams-core": "workspace:*",
+		"@bits_devel/react-diagrams-defaults": "workspace:*",
+		"@bits_devel/react-diagrams-routing": "workspace:*"
 	}
 }
