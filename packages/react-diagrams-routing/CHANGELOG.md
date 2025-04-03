@@ -1,5 +1,16 @@
 # @projectstorm/react-diagrams-routing
 
+## 7.1.4
+
+### Patch Changes
+
+- 430e922: Updated packages to support React v19
+- Updated dependencies [430e922]
+  - @bits_devel/react-diagrams-defaults@7.1.4
+  - @bits_devel/react-diagrams-core@7.0.4
+  - @bits_devel/react-canvas-core@7.0.4
+  - @bits_devel/geometry@7.0.4
+
 ## 7.1.3
 
 ### Patch Changes
