@@ -1,11 +1,11 @@
 ---
-'@projectstorm/react-diagrams-defaults': patch
-'@projectstorm/react-diagrams-routing': patch
-'@projectstorm/react-diagrams-core': patch
-'@projectstorm/react-canvas-core': patch
-'@projectstorm/react-diagrams-gallery': patch
-'@projectstorm/react-diagrams-demo': patch
-'@projectstorm/geometry': patch
+'@bits_devel/react-diagrams-defaults': patch
+'@bits_devel/react-diagrams-routing': patch
+'@bits_devel/react-diagrams-core': patch
+'@bits_devel/react-canvas-core': patch
+'@bits_devel/react-diagrams-gallery': patch
+'@bits_devel/react-diagrams-demo': patch
+'@bits_devel/geometry': patch
 ---
 
 Updated packages to support React v19

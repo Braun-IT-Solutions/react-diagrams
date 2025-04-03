@@ -1,5 +1,3 @@
-Run the action pls
-
 # Introduction
 
 [![Join the chat at https://gitter.im/projectstorm/react-diagrams](https://badges.gitter.im/projectstorm/react-diagrams.svg)](https://gitter.im/projectstorm/react-diagrams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![NPM](https://img.shields.io/npm/v/@projectstorm/react-diagrams.svg)](https://npmjs.org/package/@projectstorm/react-diagrams) [![Package Quality](https://npm.packagequality.com/shield/storm-react-diagrams.svg)](https://packagequality.com/#?package=storm-react-diagrams)
